@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+psycopg[binary]
+pypdf
+requests
+sentence-transformers
+pydantic
+python-multipart

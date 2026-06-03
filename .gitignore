@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Uploaded PDFs / runtime data
+services/api/data/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Node (frontend deps/build live under web/, also ignored by web/.gitignore)
+node_modules/
+.next/
