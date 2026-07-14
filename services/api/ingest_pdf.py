@@ -5,7 +5,6 @@ from pypdf import PdfReader
 from sentence_transformers import SentenceTransformer
 
 DB_URL = os.environ.get("DATABASE_URL", "postgresql://postgres:postgres@localhost:5432/litreview")
-OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
 
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"  # 384 dims
 model = SentenceTransformer(MODEL_NAME)
